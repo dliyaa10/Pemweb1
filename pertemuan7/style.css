@@ -1,0 +1,17 @@
+img {
+    width: 50px;
+    margin-right: 100px;
+  }
+  header ul {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    list-style: none;
+  }
+  li {
+    margin: 2px 7px;
+  }
+  header {
+    background-color: beige;
+    margin: -18px -10px;
+  }

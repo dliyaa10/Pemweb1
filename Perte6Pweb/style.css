@@ -1,0 +1,42 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    margin: 10px;
+    float: left;
+  }
+  
+  .box-1 {
+    background-image: url('alam1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .box-2 {
+    background-image: url('alam2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .box-3 {
+    background-image: url('alam3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  .box-4 {
+    background-image: url('alam4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    flex-direction: column;
+    display: flex;
+    width: 200px;
+    height: 250px;
+    margin: 250px;
+    float: right;
+    justify-content: center;
+  }
+  .img {
+    height: 100px;
+    margin: 20px;
+  }

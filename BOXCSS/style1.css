@@ -1,0 +1,81 @@
+.hijau {
+    width: 100%;
+    height: 80px;
+    background-color: moccasin;
+    border: 1px solid black;
+}
+
+.yellow-beige {
+    display: flex;
+    gap: 3%;
+    margin-top: 4%;
+}
+.yellow {
+    width: 15%;
+    height: 37vh;
+    background-color: dimgrey;
+    border: 1px solid black;
+}
+.beige {
+    width: 80%;
+    height: 37vh;
+    background-color: beige;
+    border: 1px solid black;
+}
+.red-blue{
+    display: flex;
+    gap: 3%;
+    margin-top: 4%;
+}
+.red{
+    width: 15%;
+    height: 37vh;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.blue{
+    width: 80%;
+    height: 37vh;
+    background-color: lightcyan;
+    border: 1px solid black;
+}v.hijau {
+    width: 100%;
+    height: 80px;
+    background-color: moccasin!important;
+    border: 1px solid black;
+}
+
+.yellow-orange {
+    display: flex;
+    gap: 3%;
+    margin-top: 4%;
+}
+.yellow {
+    width: 15%;
+    height: 37vh;
+    background-color: dimgrey;
+    border: 1px solid black;
+}
+.orange {
+    width: 80%;
+    height: 37vh;
+    background-color: orange;
+    border: 1px solid black;
+}
+.red-blue{
+    display: flex;
+    gap: 3%;
+    margin-top: 4%;
+}
+.red{
+    width: 15%;
+    height: 37vh;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.blue{
+    width: 80%;
+    height: 37vh;
+    background-color: lightcyan;
+    border: 1px solid black;
+}

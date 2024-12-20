@@ -1,0 +1,92 @@
+    .body {
+        background-color: #f5f5dd;
+    }
+    header {
+        text-align: center;
+        padding: 15px;
+        border-bottom: 5px solid #dfb17e;
+        background-color: red;
+    }
+    h1 {
+        color: mediumorchid;
+        font-size: 30px;
+        margin: 5px;
+        text-align: center;
+    }
+    blockquote {
+        font-size: 15px;
+        width: fit-content;
+        padding: 15px;
+        background-color: darkgreen;
+        border-left: 1px dotted black;
+        border-right: 1px dotted black;
+        text-align: center;
+        color: black;
+        margin: auto;
+        }
+    .profile {
+        text-align: center;
+        padding: 10px;
+        justify-content: center;
+        display: flex;
+        
+        }
+    ul li {
+        list-style: none;
+        display: inline;
+        margin-right: 20px;
+    }
+    .gambar {
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+
+    }
+    .koleksi {
+        background-color: black;
+    }
+        
+  & img {
+  width: 100px;
+  
+  border-radius: 25px
+  }
+
+  .korea {
+  font-size: 40px;
+  color: blueviolet;
+}
+
+    .jawa {
+        font-size: 200%; 
+        font-weight: bold;
+        color: blue; 
+}
+
+    .promo{
+        text-align: center; color: red;
+     }
+
+     .promo2 {
+        width: fit-content;
+        border: 2px solid black;
+        background-color: cyan ;
+        text-align: center;
+
+     }
+     .promo3 {
+        color: black;
+     }
+    .harga {
+        text-align: center;
+        font-weight: bold;
+        width: fit-content;  
+        padding: 15px;
+        bottom: 2px;
+    }
+    .center{
+        width: fit-content;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }

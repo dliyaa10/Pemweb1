@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form pemesanan barang</title>
+</head>
+<body style="font-family: cursive; padding: 25px;">
+<div style="display: flex; justify-content: space-around; border: 2px solid black; padding: 5px;">
+    <a href="style="color :black; text-montserrat: none ">Order Here</a>|
+    <a href="style="color :black; text-decoration: none "></a>Transaction history</a>|
+    <a href="style="color :black; text-decoration: none ">Policy</a>|
+    <a href=""style="color :black; text-decoration: none ">Log out</a>
+</div>
+
+<form action="" method="post" style="margin-top: 30px;">
+<table >
+    <tr>
+        <td style="width: 300px; background-color: top;" rowspan="12">
+
+            <img src="laptop.jpg" alt="macbookair" style="width: 300px;height: auto; border: 1px solid black;">
+            <button type="button">upload picture</button>
+        </td>
+        <td style="background-color: text-top; width: 200;">
+        <b>Title here :</b>
+        </td>
+        <td style="background-color: text-top;">
+            <input type="text" name="title" id="title" style="width: 400px; height: 23px;">
+        </td>
+
+            </tr>
+            <tr>              
+                <td style="background-color: text-top;">
+                    <b>Description :</b>
+                </td>
+                <td style=":background-colortop;">
+                    <textarea name="Description" id="Description" cols="53" rows="7"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Account Number :</b>
+                </td>
+                <td style="background-color: text-top;">
+                    <input type="text" name="Account_number" id="Account_number" style="width: 400px; height: 23px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Bank :</b>
+                </td>
+                <td>
+                    <select name="Bank" id="Bank" style="width: 400px; height: 30px;">
+                    <option value="BRI">BRI</option>
+                    <option value="BNI">BNI</option>
+                    <option value="Mandiri">Mandiri</option>
+                    <option value="BCA">BCA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Accountt Holder :</b>
+                </td>
+                <td>
+                    <input type="text" name="Account_Holder" id="Account_Holder" style="width: 400px; height: 30;">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4" style="background-color: text-top;">
+                    <b>Transaction :</b>
+                </td>
+                <td>
+                    <input type="number" name="Transaction"  id="Transaction" style="width: 50px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <small>* if the transaction is for 3 person, choose 3 from the drop-down</small>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="send_to_phone_mobile" id="send_to_phone_mobile" style="accent-color: green"checked>
+                    <label style="color: blue;" for="send_to_phone_mobile">send to phone mobile</label>
+                </td>
+                <tr>
+                <td>
+                    <input type="checkbox" name="send_to_email" id="send_to_email" style="accent-color: green" checked> 
+                    <label style="color: blue;"for="send_to_email">send to email</label>
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td>
+                    <b> send to mobile phone :</b>
+                </td>
+                <td>
+                    <input type="text" name="send_to_mobile_phone" style="width: 400px; height: 23;">
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: text-top;" rowspan="2">
+                    <b>send to email :</b>
+                </td>
+                <td>
+                    <input type="text" name="send_to_email" id="send_to_email" style="background-color: width: 400px; height: 23px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" style="background-color: blue; color: white; margin: 20px;">Order Here </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

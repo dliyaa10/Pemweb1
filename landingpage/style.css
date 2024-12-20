@@ -1,0 +1,160 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #7a6d5a;
+    color: white;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #e1dcdc;
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #7a6d5a;
+}
+
+.hero p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #eceaea;
+}
+section {
+    justify-content: center;
+    padding: 40px;
+    border-bottom: 1px solid #1c9736;
+}
+section p {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 11px 20px;
+    background: #71671b;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+p {
+    margin-top: 10px; 
+}
+
+#promo .slider {
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#promo .slide img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#profil img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+#form .form-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+form {
+    flex: 1;
+    min-width: 300px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #7a6d5a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #5a4c3d;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .media-sosial a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #7a6d5a;
+}
+
+footer p {
+    max-width: 10; 
+    height: auto;
+    justify-content: center;
+    padding: 1px;
+    border-bottom: 6px double #71671b;
+    margin-top: 10px;
+    color: #3a2626;
+    border-radius: 10%;
+}

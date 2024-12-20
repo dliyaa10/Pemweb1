@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>bljr js</title>
+    <script>
+        let jagoan = {
+            nama : "Goku",
+            power : "10000",
+            makan : function(kalori){
+                this.power = this.power + kalori;
+            },
+            pukul : function(kekuatan, terget){
+                this.power = this.power - kekuatan;
+                target.power = target.power - kekuatan;
+            }
+        }
+        let musuh = {
+            nama : "eka",
+            power: 5000
+        }
+
+        function run(){
+            console.log("jagoan bernama " + jagoan.nama + " kekuatan " + jagoan.power);
+            console.log("musuh bernama " + musuh.nama + " kekuatan " + musuh.power);
+            jagoan.makan(2500);
+            console.log("jagoan makan di wr padang " + jagoan.nama + " kekuatan " + jagoan.power);
+            jagoan.pukul(7000,musuh)
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

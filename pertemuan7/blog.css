@@ -1,0 +1,48 @@
+body {
+    background-color: darksalmon;
+  }
+    
+    header .nav-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    align-items: center;
+    padding: 10px;
+    margin: -10px;
+    }
+    .img-item {
+    width: 50px;
+  }
+  ul.menu {
+    display: flex;
+    list-style: none;}
+    
+    .li {
+      margin-right: 5px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+  }
+  
+  .nav-2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightpink;
+  align-items: center;
+  margin: -10px;
+  font-weight: bold;
+  }
+  .sosmed a {
+    
+  }
+  .card {
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    
+    & .section-1 {
+    margin-right: 5px;
+    }
+  }

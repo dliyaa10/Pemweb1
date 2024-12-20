@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:rgb(170,253,241);"><br>
+<table border="1" cellspacing="0" cellpadding="5" width="70%" alight="center">
+        <tr teks-alight="center">
+            <td>Home</td>
+            <td>Register</td>
+            <td>Policy</td>
+            <td>About</td>
+        </tr>
+    </table>
+    <div class="container">
+        <h2>Form Pemesanan Barang</h2>
+        <form action="#">
+            <div>
+              <img src="laptop.jpg" alt="macbookair" style="width: 250px;height: auto; border: 1px solid black;">
+
+            <button type="button">
+              <div>
+                upload picture
+              </div>
+              </button>
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" value="Year: 2009, Model:, Condition: Mint">
+            </div>
+            <div>
+            <label for="account-number">Account Number:</label>
+            <input type="text" id="account-number" name="account-number" value="123-456-789-0">
+            </div>
+            
+            <div>
+            <label for="bank">Bank:</label>
+            <select id="bank" name="bank">
+                <option value="hsbc">HSBC</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+            
+            <div>
+            <label for="account-holder">Account Holder:</label>
+            <input type="text" id="account-holder" name="account-holder" value="Name Here">
+            </div>
+            
+            <div>
+            <label for="transaction">Transaction:</label>
+            <select id="transaction" name="transaction">
+                <input type="number" name="transaction" id="transaction" min="1" max="3">
+                <p> </p>
+                   <div>
+                    If the transaction is for 3 person
+                    </div>
+            </select>
+            </div>
+            
+            <p>Send to:</p>
+            <input type="checkbox" id="mobile-phone" name="send-option" value="mobile">
+            <label for="mobile-phone">Send to Mobile Phone</label><br>
+            <input type="checkbox" id="email" name="send-option" value="email">
+            <label for="email">Send to Email</label>
+            <label for="send-to-phone">Send to Mobile Phone:</label>
+            <input type="text" id="send-to-phone" name="send-to-phone" value="1234567890, 1234567891">
+            
+            <div>
+            <label for="send-to-email">Send to Email:</label>
+            <input type="email" id="send-to-email" name="send-to-email" value="alyadlyazhra@gmail.com">
+            </div>
+            <center>
+            <button type="submit" style="background-color: pink; color: black;">Order Here</button>
+            </center>
+            </html>
